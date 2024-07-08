@@ -1,7 +1,6 @@
 {
-  "manifest_version": "1",
-  "api_version": "1",
-  "name": "Session Actions",
+  "required_api_version": "2",
+  "name": "Session Actions for Linux Mint / Cinnamon",
   "description": "Logout / Reboot / Shutdown / Suspend easily.",
   "developer_name": "gurkan.in",
   "icon": "images/exit.png",
