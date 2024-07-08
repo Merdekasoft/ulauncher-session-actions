@@ -9,11 +9,11 @@
   },
   "preferences": [
     {
-      "id": "sessionactions_ext",
-      "type": "keyword",
-      "name": "Session Actions",
-      "description": "Logout / Reboot / Shutdown / Suspend easily.",
-      "default_value": "exit"
+        "id": "sessionactions_ext",
+        "type": "keyword",
+        "name": "Session Actions",
+        "description": "Logout / Reboot / Shutdown / Suspend easily.",
+        "default_value": "exit"
     },
     {
         "id": "logout_command",
