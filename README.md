@@ -4,7 +4,7 @@ This is a fork of a deprecated extention [ulauncher-session-actions](https://git
 
 <details>
   <summary>Old Read me by gurkan.in</summary>
-*A hacky session actions extension for the [ulauncher](https://ulauncher.io/).
+<span style="color: red;"> A hacky session actions extension for the [ulauncher](https://ulauncher.io/).
 
 (Formerly known as: 'ulauncher-exit-cinnamon', then I realize hardcoding things doesn't make sense.)
 
@@ -18,7 +18,7 @@ Currently supported session actions are:
 - Logout
 - Suspend
 - Hibernate
-*
+</span>
 ![extension screenshot](https://i.imgur.com/pk4KXI5.jpg)
 
 </details>
