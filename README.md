@@ -30,7 +30,5 @@ Currently supported session actions are:
 - Shutdown
 - Restart
 - Logout
-- Suspend
-- Hibernate
-
+  
 ![Ulauncher Extension Screenshot](./images/screenshots/Main.png)
