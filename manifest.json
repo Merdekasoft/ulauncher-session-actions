@@ -2,7 +2,7 @@
     "name": "i3wm Control",
     "description": "Control i3wm to logout, restart, or shutdown",
     "developer_name": "Sukarya",
-    "icon": "images/icon.png",
+    "icon": "images/exit.png",
     "options": {
         "query_debounce": 0.1
     },
