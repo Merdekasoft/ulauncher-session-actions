@@ -23,7 +23,7 @@ class I3wmControlExtension(Extension):
                                 name='Restart',
                                 description='Restart the system',
                                 on_enter=ExtensionCustomAction('restart', keep_app_open=False)),
-            ExtensionResultItem(icon='images/Shutdown.png',
+            ExtensionResultItem(icon='images/shutdown.png',
                                 name='Shutdown',
                                 description='Shutdown the system',
                                 on_enter=ExtensionCustomAction('shutdown', keep_app_open=False))
