@@ -1,50 +1,37 @@
 {
-  "required_api_version": "2",
-  "name": "Session Actions for Linux Mint / Cinnamon",
-  "description": "Logout / Reboot / Shutdown / Suspend easily.",
-  "developer_name": "gurkan.in",
-  "icon": "images/exit.png",
-  "options": {
-    "query_debounce": 0.1
-  },
-  "preferences": [
-    {
-        "id": "sessionactions_ext",
-        "type": "keyword",
-        "name": "Session Actions",
-        "description": "Logout / Reboot / Shutdown / Suspend easily.",
-        "default_value": "exit"
+    "name": "i3wm Control",
+    "description": "Control i3wm to logout, restart, or shutdown",
+    "developer_name": "Sukarya",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.1
     },
-    {
-        "id": "logout_command",
-        "type": "input",
-        "name": "Command to run to execute logout action",
-        "default_value": "cinnamon-session-quit --logout"
-    },
-    {
-        "id": "hibernate_command",
-        "type": "input",
-        "name": "Command to run to execute hibernate action",
-        "default_value": "systemctl hibernate"
-    },
-    {
-        "id": "shutdown_command",
-        "type": "input",
-        "name": "Command to run to execute shutdown action",
-        "default_value": "cinnamon-session-quit --power-off"
-    },
-    {
-        "id": "reboot_command",
-        "type": "input",
-        "name": "Command to run to execute reboot action",
-        "default_value": "cinnamon-session-quit --reboot"
-    },
-    {
-        "id": "suspend_command",
-        "type": "input",
-        "name": "Command to run to execute suspend action",
-        "default_value": "systemctl suspend"
-    }
-  ]
+    "default_hotkey": "Ctrl+Alt+Del",
+    "preferences": [
+        {
+            "id": "logout_command",
+            "type": "text",
+            "name": "Logout Command",
+            "description": "Command to execute for logging out",
+            "default_value": "i3-msg exit"
+        },
+        {
+            "id": "restart_command",
+            "type": "text",
+            "name": "Restart Command",
+            "description": "Command to execute for restarting",
+            "default_value": "systemctl reboot"
+        },
+        {
+            "id": "shutdown_command",
+            "type": "text",
+            "name": "Shutdown Command",
+            "description": "Command to execute for shutting down",
+            "default_value": "systemctl poweroff"
+        }
+    ],
+    "version": "1.0.0",
+    "include": [
+        "main.py"
+    ]
 }
-
