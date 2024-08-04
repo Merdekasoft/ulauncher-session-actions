@@ -15,15 +15,15 @@ class I3wmControlExtension(Extension):
 
     def on_keyword_query(self, event):
         items = [
-            ExtensionResultItem(icon='images/icon.png',
+            ExtensionResultItem(icon='images/Logout.png',
                                 name='Logout',
                                 description='Logout from i3wm',
                                 on_enter=ExtensionCustomAction('logout', keep_app_open=False)),
-            ExtensionResultItem(icon='images/icon.png',
+            ExtensionResultItem(icon='images/reboot.png',
                                 name='Restart',
                                 description='Restart the system',
                                 on_enter=ExtensionCustomAction('restart', keep_app_open=False)),
-            ExtensionResultItem(icon='images/icon.png',
+            ExtensionResultItem(icon='images/Shutdown.png',
                                 name='Shutdown',
                                 description='Shutdown the system',
                                 on_enter=ExtensionCustomAction('shutdown', keep_app_open=False))
